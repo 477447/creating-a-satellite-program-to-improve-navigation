@@ -140,6 +140,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# mkdocs documentation
+/site
+
+# mypy
+ .mypy_cache/
+ 
 
 "[Apache]"
 
