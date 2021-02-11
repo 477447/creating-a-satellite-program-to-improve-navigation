@@ -146,6 +146,12 @@ dmypy.json
 # mypy
  .mypy_cache/
  
+ # Pyre type checker
+  .pyre/
+  
+  "[Apache]"
+  
+ 
 
 "[Apache]"
 
