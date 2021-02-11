@@ -32,6 +32,12 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+# mypy
+ .mypy_cache/
+ 
+ "[Apache]"
+ 
 def("with,the,help,of,a,phone,number")
 def("the,user,need,to,create,the,program,to,get,my,number,phone,number,became")
 
