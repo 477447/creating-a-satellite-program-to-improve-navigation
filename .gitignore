@@ -125,6 +125,13 @@ venv.bak/
 
 # mkdocs documentation
 /site
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+
 
 # mypy
 .mypy_cache/
